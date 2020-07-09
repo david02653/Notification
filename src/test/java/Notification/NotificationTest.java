@@ -41,7 +41,7 @@ public class NotificationTest {
 	public void testSetRead()
 	{
 		//assertEquals("success", notificationController.setNotificationRead("123"));
-		assertEquals("success", notificationController.setNotificationRead("456"));
+		assertEquals("fail", notificationController.setNotificationRead("456"));
 	}
 	
 	@Test
