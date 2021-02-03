@@ -15,6 +15,7 @@ import static org.junit.Assert.assertTrue;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class NotificationTest {
+	// test comment
 
 	@Autowired
 	private NotificationController notificationController;
